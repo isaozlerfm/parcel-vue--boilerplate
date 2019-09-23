@@ -11,8 +11,10 @@
     "@typescript-eslint/eslint-plugin": "^2.3.0",
     "@typescript-eslint/parser": "^2.3.0",
     "@vue/component-compiler-utils": "^3.0.0",
+    "@vue/eslint-config-typescript": "^4.0.0",
     "eslint": "^6.4.0",
     "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-import-resolver-webpack": "^0.11.1",
     "eslint-plugin-import": "^2.18.2",
     "eslint-plugin-vue": "^5.2.3",
     "husky": "^3.0.5",
@@ -27,7 +29,7 @@
     "serve": "parcel ./src/index.html --open",
     "build": "NODE_ENV=development tsc --noEmit & parcel build index.js -d ./build --no-source-maps",
     "watch": "parcel watch ./src/index.html",
-    "lint": "eslint './src/**/*.{js,ts,tsx}'"
+    "lint": "eslint './src/**/*.{js,ts,tsx,vue}'"
   },
   "author": "@isaozler",
   "license": "ISC",

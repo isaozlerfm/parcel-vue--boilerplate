@@ -4,7 +4,9 @@ module.exports = {
     es6: true,
   },
   extends: [
-    'eslint-config-airbnb-base'
+    'eslint-config-airbnb-base',
+    'plugin:vue/recommended',
+    'plugin:import/typescript'
   ],
   globals: {
     Atomics: 'readonly',

@@ -1,20 +1,20 @@
 <template>
   <div>
-    Hello {{bundler}}
+    Hello {{ bundler }}
   </div>
 </template>
 
 <script lang="ts">
 import Vue from 'vue';
-import { aMixin } from './services';
+import aMixin from './services';
 
 export default Vue.extend({
-  mixins: [ aMixin ],
+  mixins: [aMixin],
   data() {
     return {
-      bundler: "Parcel"
+      bundler: 'Parcel',
     };
-  }
+  },
 });
 </script>
 
