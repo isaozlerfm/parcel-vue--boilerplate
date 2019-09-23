@@ -4,7 +4,7 @@ module.exports = {
     es6: true,
   },
   extends: [
-    'plugin:prettier/recommended'
+    'eslint-config-airbnb-base'
   ],
   globals: {
     Atomics: 'readonly',
@@ -15,10 +15,8 @@ module.exports = {
     parser: '@typescript-eslint/parser',
     sourceType: 'module',
   },
-  plugins: [
-    'prettier',
-  ],
+  plugins: [],
   rules: {
-    'prettier/prettier': 'error'
+    'quotes': ['error', 'single']
   }
 };

@@ -1,8 +1,8 @@
-export const aMixin = {
+export default {
   created() {
     console.log('app created');
   },
   mounted() {
-    console.log("app mounted");
-  }
+    console.log('app mounted');
+  },
 };
