@@ -1,6 +1,6 @@
 <template>
   <div>
-    Hello {{ bundler }}
+    Parcel - Vue {{ bundler }}
   </div>
 </template>
 
@@ -12,7 +12,7 @@ export default Vue.extend({
   mixins: [aMixin],
   data() {
     return {
-      bundler: 'Parcel',
+      bundler: 'Boilerplate',
     };
   },
 });

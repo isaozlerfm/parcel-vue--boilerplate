@@ -1,7 +1,7 @@
 {
-  "name": "b2bk-700",
+  "name": "parcel-vue--boilerplate",
   "version": "1.0.0",
-  "description": "Gigabit Zip Checker Component",
+  "description": "parcel-vue--boilerplate",
   "main": "index.js",
   "dependencies": {
     "vue": "^2.6.10",
